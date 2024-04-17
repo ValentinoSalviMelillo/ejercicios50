@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <p id="recuadro">Quién descubrió América y en que año fue?</p>
+    Color de fondo:
+    <select onChange="cambiarColorFondo()" id="colorfondo">
+    <option value="#ffff00">amarillo</option>
+    <option value="#ff0000">rojo</option>
+    <option value="#00ff00">verde</option>
+    <option value="#0000ff">azul</option>
+    </select>
+    <br> Color de fuente:
+    <select onChange="cambiarColorFuente()" id="colorfuente">
+    <option value="#000000">negro</option>
+    <option value="#ff0000">rojo</option>
+    <option value="#00ff00">verde</option>
+    <option value="#0000ff">azul</option>
+    </select>
+    <br> Cambiar tamaño de fuente:
+    <select onChange="cambiarTamanoFuente()" id="tamanofuente">
+    <option value="10px">10</option>
+    <option value="12px">12</option>
+    <option value="14px">14</option>
+    <option value="16px">16</option>
+    <option value="18px">18</option>
+    <option value="20px">20</option>
+    <option value="22px">22</option>
+    <option value="24px">24</option>
+    </select>
+    <br> Cambiar tipo de fuente:
+    <select onChange="cambiarTipoFuente()" id="tipofuente">
+    <option value="Arial">Arial</option>
+    <option value="Courier">Curier</option>
+    <option value="Verdana">Verdana</option>
+    </select>
+    <br> Cambiar estilo de la fuente:
+    <select onChange="cambiarEstiloFuente()" id="estilofuente">
+    <option value="normal">Normal</option>
+    <option value="Italic">Italic</option>
+    <option value="Oblique">Oblique</option>
+    </select>
+    <br> Peso de la fuente:
+    <select onChange="cambiarPesoFuente()" id="pesofuente">
+    <option value="normal">Normal</option>
+    <option value="bold">Bold</option>
+    </select>
+    <br> Alineación de la fuente:
+    <select onChange="cambiarAlineacionFuente()" id="alineacionfuente">
+    <option value="left">Left</option>
+    <option value="right">Right</option>
+    <option value="center">Center</option>
+    </select>
+    <br> Decoración de la fuente:
+    <select onChange="cambiarDecoracionFuente()" id="decoracionfuente">
+    <option value="none">none</option>
+    <option value="underline">underline</option>
+    <option value="overline">overline</option>
+    <option value="line-through">line-through</option>
+    </select>
+    <br> Espacio entre letras:
+    <select onChange="cambiarEspacioLetras()" id="espacioletras">
+    <option value="3">3</option>
+    <option value="6">6</option>
+    <option value="9">9</option>
+    <option value="12">12</option>
+    <option value="15">15</option>
+    </select>
+    <br> Espacio entre palabras:
+    <select onChange="cambiarEspacioPalabras()" id="espaciopalabras">
+    <option value="3">3</option>
+    <option value="6">6</option>
+    <option value="9">9</option>
+    <option value="12">12</option>
+    <option value="15">15</option>
+    </select>
+    <br> Transformación de texto:
+    <select onChange="cambiarTransformacionTexto()" id="transformaciontexto">
+    <option value="none">none</option>
+    <option value="capitalize">capitalize</option>
+    <option value="lowercase">lowercase</option>
+    <option value="uppercase">uppercase</option>
+    </select>
+    <br> Ancho de borde:
+    <select onChange="cambiarAnchoBorde()" id="anchoborde">
+    <option value="0px">0</option>
+    <option value="1px" selected="selected">1</option>
+    <option value="2px">2</option>
+    <option value="3px">3</option>
+    <option value="4px">4</option>
+    <option value="5px">5</option>
+    </select>
+    <br> Estilo de borde:
+    <select onChange="cambiarEstiloBorde()" id="estiloborde">
+    <option value="none">none</option>
+    <option value="hidden">hidden</option>
+    <option value="dotted">dotted</option>
+    <option value="dashed">dashed</option>
+    <option value="solid">solid</option>
+    <option value="double">double</option>
+    <option value="groove">groove</option>
+    <option value="ridge">ridge</option>
+    <option value="inset">inset</option>
+    <option value="outset">outset</option>
+    </select>
+    <br> Color de borde:
+    <select onChange="cambiarColorBorde()" id="colorborde">
+    <option value="#000000">negro</option>
+    <option value="#ffff00">amarillo</option>
+    <option value="#ff0000">rojo</option>
+    <option value="#00ff00">verde</option>
+    <option value="#0000ff">azul</option>
+    </select>
+    <br> padding:
+    <select onChange="cambiarPadding()" id="padding">
+    <option value="0">0</option>
+    <option value="4" selected="selected">4</option>
+    <option value="8">8</option>
+    <option value="12">12</option>
+    <option value="16">16</option>
+    <option value="20">20</option>
+    </select>
+    <br> margin:
+    <select onChange="cambiarMargin()" id="margin">
+    <option value="0">0</option>
+    <option value="4" selected="selected">4</option>
+    <option value="8">8</option>
+    <option value="12">12</option>
+    <option value="16">16</option>
+    <option value="20">20</option>
+    </select>
+    <script src="funciones.js"></script>
+</body>
+
+</html>
