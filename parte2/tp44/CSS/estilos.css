@@ -1,0 +1,12 @@
+#mensaje {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #000;
+    width: 1024px;
+    height: 50px;
+    background-color: #ff0;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+}

@@ -1,0 +1,19 @@
+.recuadrointerior {
+    font-family: Courier;
+    font-size: 12px;
+    background-color: #ffffcc;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #ffaa00;
+    padding: 20px;
+}
+
+.recuadroexterior {
+    font-family: Courier;
+    font-size: 12px;
+    background-color: #ff9900;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #ffaa00;
+    padding: 20px;
+}
